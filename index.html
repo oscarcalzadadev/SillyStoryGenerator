@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    
+<html lang="en-US">
+    <head>
+      <title>Silly Story Generator</title>
+      <meta name="author" content="Oscar Calzada">
+      <meta name="description" content="Silly Story Generator by Oscar Calzada">
+      <meta name="keywords" content="Silly, Story, Generator">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="3D PRD LOGO.jpg" type="image/png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="script.js" defer></script>
+    </head>
+    <!--HTML BEGINS-->
+    <body>
+      <nav class="navbar">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="" class="nav_link"></a>
+          </li>
+        </ul>
+      </nav>
+      <header class="header">
+        <h1 class="title">Silly Story<br>Generator</h1>
+        <!--User will enter name here-->
+        <section class="enter_name_container">
+          <label for="name">Name*</label>
+          <input type="text" required id="name" name="name">
+          <p id="error"></p>
+        </section>
+        <!--Button Generates random story when user presses it-->
+        <button id="btn" class="btn">Generate Random Story</button>
+        <!--Container that holds the randomized story-->
+        <section class="random_story_container">
+            <p class="randomized_story" id="randomizedStory"></p>
+        </section>
+        <section class="links_container">
+
+        </section>
+      </header>
+    </body>
+    </html>
